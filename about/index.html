@@ -20,25 +20,82 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="../">Home</a></li>
-        <li><a>About</a></li>
-        <li><a href="../contact/">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="nav-menu">
+    <label for="nav-toggle" class="nav-toggle-label"></label>
   </header>
 
-  <main>
-    <h1>About</h1>
-    <p>My page is about stuff.</p>
-
-    <img srcset="../images/hero-nt-300px.jpg 300w,
+  <div class="hero small">
+    <div class="text-wrapper">
+      <h1>About</h1>
+    </div>
+    <div class="image-background">
+      <img srcset="../images/hero-nt-300px.jpg 300w,
             ../images/hero-nt-600px.jpg 600w,
             ../images/hero-nt-900px.jpg 900w" sizes="50vw" src="../images/hero-nt-600px.jpg"
-      alt="hand-painted image of Moses parting the Red Sea" width="600" height="600">
+        alt="hand-painted image of Moses parting the Red Sea">
+    </div>
+  </div>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+  <ul id="menu-topo">
+    <li class="nav-item"><a href="../">Home</a></li>
+    <li class="nav-item"><a>About</a></li>
+    <li class="nav-item"><a href="../products/">Products</a></li>
+    <li class="nav-item"><a href="../contact/">Contact</a></li>
+  </ul>
+
+  <main>
+    <article class="panel">
+      <div class="text-wrapper left">
+        <h2>Hi! I'm Elley!</h2>
+        <p>My name is Elley, and I am a unique daughter of God. I grew up in a small town, called Price, UT. I was
+          involved in everything under the sun: ballet school, varsity soccer and swim, local government, musicals,
+          choir, business clubs, science fair, and so much more.</p>
+        <p>After graduating high school, I went to college for a year and then decided to take a break to serve a
+          mission for my church. So I moved to Texas for about a year and a half to talk about Jesus!</p>
+      </div>
+      <div class="image-wrapper">
+        <img src="../images/Elley1.JPG" alt="Happy picture of Elley">
+      </div>
+    </article>
+
+    <article class="panel">
+      <div class="text-wrapper">
+        <h2>First Came Love...</h2>
+        <p>As a missionary, I constantly heard about the need to
+          study the scriptures. With everyone studying the same thing in almost the same way, how could I make
+          scripture
+          study unique for me and those I was teaching? </p>
+        <p>There were two girls who I worked closely with who had also attended college before they came to Texas. They
+          were art majors and liked to paint in their free time. So I asked them to teach me!</p>
+        <p>I fell in love with painting and started to paint scripture covers for anyone and everyone who asked!</p>
+      </div>
+      <div class="image-wrapper left">
+        <img src="../images/Elley2.jpg" alt="Another happy picture of Elley">
+      </div>
+    </article>
+
+    <article class="panel">
+      <div class="text-wrapper left">
+        <h2>Then Came the Art.</h2>
+        <p>There were a lot of people who really liked my artwork! They told me I should start to sell it, but I was
+          hesitant because I didn't want to lose the love of art that I had gained. I was afraid it would become
+          something I <em>had</em> to do, rather than something I <em>love</em> to do.</p>
+        <p>But as I kept painting, I realized that having personalized scriptures helps encourage one's love for
+          studying the scriptures. If God gives you a gift, you've got to share it!</p>
+        <p>So here is <em>Elley Cowdell Christian Art</em>. A place where you get to design art that speaks to you.</p>
+      </div>
+      <div class="image-wrapper">
+        <img src="../images/Elley3.JPG" alt="Happy picture of Elley">
+      </div>
+    </article>
   </main>
+
+  <footer>
+    <p>Elley Cowdell Christian Art</p>
+    <p>IG | @elleycowdell</p>
+  </footer>
 </body>
 
 </html>

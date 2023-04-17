@@ -21,19 +21,40 @@
 </head>
 
 <body>
-  <!-- TODO: add menu links, delete this comment -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="../">Home</a></li>
-        <li><a href="../about/">About</a></li>
-        <li><a>Contact</a></li>
-      </ul>
-    </nav>
+  <header class="nav-menu">
+    <label for="nav-toggle" class="nav-toggle-label"></label>
   </header>
-  <h1>Contact</h1>
-  <p>This is my contact information.</p>
-  <img src="../images/list_icon.svg" alt="list icon">
+
+  <div class="hero small">
+    <div class="text-wrapper">
+      <h1>Contact</h1>
+    </div>
+    <div class="image-background">
+      <img srcset="../images/hero-nt-300px.jpg 300w,
+            ../images/hero-nt-600px.jpg 600w,
+            ../images/hero-nt-900px.jpg 900w" sizes="50vw" src="../images/hero-nt-600px.jpg"
+        alt="hand-painted image of Moses parting the Red Sea">
+    </div>
+  </div>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+  <ul id="menu-topo">
+    <li class="nav-item"><a href="../">Home</a></li>
+    <li class="nav-item"><a href="../about/">About</a></li>
+    <li class="nav-item"><a href="../products/">Products</a></li>
+    <li class="nav-item"><a>Contact</a></li>
+  </ul>
+  <main>
+    <h1>Contact</h1>
+    <p><em>We're sorry. This page is currently under construction!</em></p>
+    <p>Please go to @elleycowdell on Instagram for inquiries. :)</p>
+    <img src="../images/favicon-32x32.png" height="32px" width="32px" alt="website logo">
+  </main>
+  <footer>
+    <p>Elley Cowdell Christian Art</p>
+    <p>IG | @elleycowdell</p>
+  </footer>
 </body>
 
 </html>

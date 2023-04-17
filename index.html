@@ -25,8 +25,8 @@
     <div class="video-background">
       <div class="video-foreground">
         <iframe width="560" height="315"
-          src="https://www.youtube.com/embed/Mi2NWbXjkoQ?controls=0&autoplay=1&mute=1&loop=1" frameborder="0"
-          allow="autoplay; loop"></iframe>
+          src="https://www.youtube.com/embed/Mi2NWbXjkoQ?controls=0&amp;start=8&amp;clip=UgkxFMn8v5RLevFbMf_BpyMuMvqM_ALn5-G3&amp;clipt=ENeqARi3_wQ&autoplay=1&mute=1&loop=1"
+          frameborder="0" allow="autoplay; loop;"></iframe>
       </div>
     </div>
 
@@ -36,16 +36,18 @@
     </div>
   </div>
 
-  <header>
-    <nav>
-      <ul class="menu">
-        <li><a>Home</a></li>
-        <li><a href="about/">About</a></li>
-        <li><a href="products/">Products</a></li>
-        <li><a href="contact/">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="nav-menu">
+    <label for="nav-toggle" class="nav-toggle-label"></label>
   </header>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+  <ul id="menu-topo">
+    <li class="nav-item"><a>Home</a></li>
+    <li class="nav-item"><a href="about/">About</a></li>
+    <li class="nav-item"><a href="products/">Products</a></li>
+    <li class="nav-item"><a href="contact/">Contact</a></li>
+  </ul>
 
   <main>
     <article class="panel">
@@ -64,9 +66,9 @@
       <div class="text-wrapper">
         <h2>You are Unique</h2>
         <p>My name is Elley, and I am a unique daughter of God. As a Christian, I constantly hear about the need to
-          study the scriptures. With everyone doing the same thing in almost the exact same way, how could I make
+          study the scriptures. With everyone studying the same thing in almost the same way, how could I make
           scripture
-          study unique and special for me? </p>
+          study unique for me? </p>
         <a href="about/" class="button">About me</a>
       </div>
       <div class="image-wrapper left">

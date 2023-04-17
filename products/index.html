@@ -20,26 +20,107 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="../">Home</a></li>
-        <li><a href="../about/">About</a></li>
-        <li><a>Products</a></li>
-        <li><a href="../contact/">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <h1>Products</h1>
-    <p>My page is about stuff.</p>
 
-    <img srcset="../images/hero-nt-300px.jpg 300w,
+  <div class="hero small">
+    <div class="text-wrapper">
+      <h1>Products</h1>
+    </div>
+    <div class="image-background">
+      <img srcset="../images/hero-nt-300px.jpg 300w,
             ../images/hero-nt-600px.jpg 600w,
             ../images/hero-nt-900px.jpg 900w" sizes="50vw" src="../images/hero-nt-600px.jpg"
-      alt="hand-painted image of Moses parting the Red Sea" width="600" height="600">
+        alt="hand-painted image of Moses parting the Red Sea">
+    </div>
+  </div>
+  <header class="nav-menu">
+    <label for="nav-toggle" class="nav-toggle-label"></label>
+  </header>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+  <ul id="menu-topo">
+    <li class="nav-item"><a href="../">Home</a></li>
+    <li class="nav-item"><a href="../about/">About</a></li>
+    <li class="nav-item"><a>Products</a></li>
+    <li class="nav-item"><a href="../contact/">Contact</a></li>
+  </ul>
+  <main>
+    <h2> Products</h2>
+    <p>Here are some of the projects I have done!</p>
+    <p>If one of these interests you, specify which one you'd like in your contact form. All previously made books are
+      $30.</p>
+    <p>If none of these speak to you, put your contact information in the contact form, and we can discuss your options
+      and pricing.</p>
   </main>
+  <section class="cards margin">
+    <a class="card">
+      <img src="../images/firent.jpg" alt="Denton Fire Dept-themed new testament">
+      <p>Denton Fire</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/nauvoont.jpg" alt="Nauvoo-themed new testament">
+      <p>Nauvoo</p>
+    </a>
+    <a class="card">
+      <img src="../images/mosesnt.jpg" alt="New Testament painting Moses">
+      <p>Moses</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/resurrectionnt.jpg" alt="Resurrection painting New Testament">
+      <p>Resurrection</p>
+    </a>
+
+  </section>
+
+  <section class="cards margin">
+
+    <a class="card">
+      <img src="../images/rockbom.jpg" alt="Book of Mormon painting Jesus looking at the night sky">
+      <p>Night Sky</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/VanGogh.jpg" alt="Van Gogh painting Book of Mormon">
+      <p>Van Gogh</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/mosesbom.jpg" alt="Book of Mormon painting Moses">
+      <p>Moses</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/temple2800.jpg" alt="San Diego temple on a New Testament">
+      <p>San Diego</p>
+    </a>
+  </section>
+
+  <section class="cards margin">
+    <a href="products/" class="card">
+      <img src="../images/jesusrocknt.jpg" alt="New Testament painting Jesus looking at the night sky">
+      <p>Night Sky</p>
+    </a>
+    <a class="card">
+      <img src="../images/flowerbom.jpg" alt="Flower Book of Mormon">
+      <p>Flowers</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/jesuswaterbom.jpg" alt="Jesus walking on the beach painting Book of Mormon">
+      <p>Hidden Cross</p>
+    </a>
+    <a href="products/" class="card">
+      <img src="../images/sunsetbom.jpg" alt="Sunset Book of Mormon">
+      <p>Sunset</p>
+    </a>
+
+  </section>
+
+
+
+
+
+  <footer>
+    <p>Elley Cowdell Christian Art</p>
+    <p>IG | @elleycowdell</p>
+  </footer>
 </body>
 
 </html>
